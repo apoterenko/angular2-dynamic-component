@@ -20,8 +20,8 @@ import {
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/of';
+import { Observable } from 'rxjs';
+import { of } from 'rxjs';
 
 import { Utils } from './dynamic.utils';
 import { DynamicCache } from './dynamic.cache';
